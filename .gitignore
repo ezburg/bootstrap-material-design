@@ -20,19 +20,4 @@ Thumbs.db
 /_SpecRunner.html
 Gemfile.lock
 dist/sassc
-
-
-# not needed on gh-pages branch
-Gruntfile.js
-LICENSE.md
-CONTRIBUTING.md
-package.json
-README.md
-docs
-less
-sass
-scripts
-meteor
-bower.json
-testcase.html
-package.js
+.idea/
