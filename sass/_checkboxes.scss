@@ -127,7 +127,7 @@
   input[type=checkbox][disabled]:not(:checked) ~ .checkbox-material .check:before,
   input[type=checkbox][disabled]:not(:checked) ~ .checkbox-material .check,
   input[type=checkbox][disabled] + .circle {
-    opacity: 0.5;
+    opacity: 0.3;
   }
   input[type=checkbox][disabled] + .checkbox-material .check:after {
     background-color: $mdb-text-color-primary;

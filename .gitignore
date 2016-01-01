@@ -20,3 +20,4 @@ Thumbs.db
 /_SpecRunner.html
 Gemfile.lock
 dist/sassc
+.idea/

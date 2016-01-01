@@ -4,7 +4,8 @@
     background: $brand-primary;
     > li {
         > a {
-            color: #FFFFFF;
+            color: rgba(255, 255, 255, 0.75);
+            font-weight: normal;
             border: 0;
             margin: 0;
             &:hover {
@@ -15,11 +16,15 @@
         & > a, & > a:hover, & > a:focus {
             background-color: transparent !important;
             border: 0 !important;
-            color: #FFFFFF !important;
-            font-weight: 500;
+            color: rgba(255, 255, 255, 0.75 !important);
+            font-weight: normal;
         }
         &.disabled > a, &.disabled > a:hover {
-            color: rgba(255,255,255,0.5);
+            color: rgba(255, 255, 255, 0.3);
+        }
+        &.active > a {
+            color: white !important;
+            font-weight: normal;
         }
     }
 
