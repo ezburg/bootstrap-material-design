@@ -70,6 +70,8 @@
         ".navbar a:not(.withoutripple)",
         ".dropdown-menu a",
         ".nav-tabs a:not(.withoutripple)",
+        ".nav-pills a:not(.withoutripple)",
+        ".breadcrumb a",
         ".withripple",
         ".pagination li:not(.active):not(.disabled) a:not(.withoutripple)"
       ].join(","),
